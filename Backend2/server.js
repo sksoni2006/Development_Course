@@ -22,7 +22,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins = [
-    'http://localhost:3000'] // Local development URL];
+    'http://localhost:3000',// ] // Local development URL];
+    'https://development-course.vercel.app/' ]// ] // production development URL];
 
 
 const corsOptions = {
